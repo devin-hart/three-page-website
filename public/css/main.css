@@ -10,7 +10,7 @@
 }
 
 .btn {
-  font-family: helvetica;
+  font-family: 'Roboto Condensed', sans-serif;
   float: left;
   display: inline-block;
   text-decoration: none;
@@ -19,7 +19,7 @@
 }
 
 .name {
-  font-family: helvetica;
+  font-family: 'Roboto Condensed', sans-serif;
   float: right;
   text-decoration: none;
   color: black;
@@ -43,10 +43,11 @@
   color: black;
   padding-left: 10px;
   padding-right: 10px;
+  font-family: 'Slabo 27px', serif;
 }
 
 .h1 {
-  font-family: helvetica;
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: xx-large;
 }
 
@@ -93,3 +94,5 @@ img {
   }
 
 }
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
