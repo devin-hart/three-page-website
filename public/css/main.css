@@ -1,0 +1,95 @@
+.navbar {
+  background-color: #666;
+  position: fixed;
+  height: 50px;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  box-shadow: 0 0 6px black;
+}
+
+.btn {
+  font-family: helvetica;
+  float: left;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.name {
+  font-family: helvetica;
+  float: right;
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+  font-size: large;
+  display: inline-block;
+}
+
+.btn:hover {
+  color: black;
+  transition: color linear;
+}
+
+.text-box {
+  height: auto;
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 100px;
+  text-align: left;
+  background-color: white;
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.h1 {
+  font-family: helvetica;
+  font-size: xx-large;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+
+}
+
+@media screen and (max-width: 992px) {
+  .text-box .navbar {
+  max-width: 100%;
+  height: auto;
+  }
+
+  img {
+  max-width: 100%;
+  height: auto;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .text-box .navbar {
+  max-width: 100%;
+  height: auto;
+  }
+
+  img {
+  max-width: 100%;
+  height: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .text-box {
+  max-width: 100%;
+  height: auto;
+  }
+
+  img {
+  max-width: 100%;
+  height: auto;
+  }
+
+}
