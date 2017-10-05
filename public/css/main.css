@@ -31,6 +31,7 @@
 .btn:hover {
   color: black;
   transition: color linear;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .text-box {
@@ -55,6 +56,11 @@ img {
   max-width: 100%;
   height: auto;
 
+}
+
+.imgbtn:hover {
+  background-color: #666;
+  border-radius: 50%;
 }
 
 @media screen and (max-width: 992px) {
