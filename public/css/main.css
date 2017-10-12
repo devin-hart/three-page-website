@@ -36,9 +36,9 @@
 
 .text-box {
   height: auto;
-  width: 1000px;
+  width: auto;
   margin: 0 auto;
-  padding-top: 100px;
+  padding-top: 1em;
   text-align: left;
   background-color: white;
   color: black;
@@ -53,9 +53,14 @@
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
 
+}
+
+img.imgbtn {
+  height: 45px;
+  width: 45px;
 }
 
 .imgbtn:hover {
@@ -65,12 +70,12 @@ img {
 
 @media screen and (max-width: 992px) {
   .text-box .navbar {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   }
 
-  img {
-  max-width: 100%;
+  .img {
+  width: 100%;
   height: auto;
   }
 
@@ -78,25 +83,29 @@ img {
 
 @media screen and (max-width: 768px) {
   .text-box .navbar {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   }
 
-  img {
-  max-width: 100%;
+  .img {
+  width: 768px;
   height: auto;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .text-box {
-  max-width: 100%;
+  .text-box .navbar {
+  width: 100%;
   height: auto;
   }
 
-  img {
-  max-width: 100%;
+  .img {
+  width: 480px;
   height: auto;
+  }
+
+  .name {
+    display: none;
   }
 
 }
